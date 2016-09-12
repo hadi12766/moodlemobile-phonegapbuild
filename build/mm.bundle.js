@@ -1,4 +1,4 @@
-// (C) Copyright 2015 Martin Dougiamas
+﻿// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -5111,11 +5111,11 @@ angular.module('mm.core')
         };
                 self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';
-            var docsurl = 'https://docs.moodle.org/en/' + page;
+            var docsurl = 'https://bekr.org/' + page;
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
                 if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
+                    docsurl = docsurl.replace('https://bekr.org/', 'https://bekr.org/' + version + '/');
                 }
             }
             return $mmLang.getCurrentLanguage().then(function(lang) {
