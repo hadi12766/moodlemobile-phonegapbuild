@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "org.bekr.bekrmobile"
         versionCode = "2014"
         version   = "3.1.2">
-    <name>Moodle Mobile</name>
+    <name>Bekr Mobile</name>
 
     <description>
-        Moodle Mobile official app
+         Bekr Mobile official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://bekr.org" email="bekr.org@gmail.com">
+          Hadi Behrouzian
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
