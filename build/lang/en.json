@@ -238,7 +238,7 @@
     "mm.login.loginbutton": "Login!",
     "mm.login.logininsiterequired": "You need to log in to the site in a browser window.",
     "mm.login.mobileservicesnotenabled": "Mobile Services are not enabled in your site. Please, contact your Bekr site administrator if you think mobile access should be enabled.",
-    "mm.login.newsitedescription": "Please enter the URL of your Bekr site. Note that it might not be configured to work with this app.",
+    "mm.login.newsitedescription": "Please enter the URL of your 'Bekr.org' site. Note that it might not be configured to work with this app.",
     "mm.login.notloggedin": "You need to be logged in.",
     "mm.login.password": "Password",
     "mm.login.passwordrequired": "Password required",

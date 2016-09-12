@@ -764,14 +764,14 @@ angular.module('mm.core')
         self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';
 
-            var docsurl = 'https://bekr.org' + page;
+            var docsurl = 'http://bekr.org';
 
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
                 // Check is a valid number.
                 if (parseInt(version) >= 24) {
                     // Append release number.
-                    docsurl = docsurl.replace('https://bekr.org/', 'https://bekr.org/' + version + '/');
+                    docsurl = docsurl.replace('http://bekr.org/', 'http://bekr.org/');
                 }
             }
 
